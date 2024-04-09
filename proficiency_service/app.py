@@ -7,6 +7,10 @@ app = Flask(__name__)
 modelPath = "../actfl_proficiency_classifier/trained_models/proficiency_classifier.joblib"
 model = joblib.load(modelPath)
 
+@app.route("/", methods=["GET"])
+def home():
+    return jsonify("WELCOME"), 200
+
 @app.route("/predict_prof", methods=["POST"])
 def predict_prof():
     try:
