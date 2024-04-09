@@ -1,0 +1,5 @@
+1. Hola, me llamo Maria.
+2. ¿Dónde está la biblioteca?
+3. Necesito ayuda, por favor.
+4. ¿Cómo te llamas?
+5. Mi casa es grande.
