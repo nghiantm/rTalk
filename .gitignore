@@ -2,6 +2,7 @@
 
 # misc
 .DS_Store
+proficiency_service/__pycache__
 
 # guideline descriptions
 actfl_proficiency_classifier/data/guideline_desc/*.txt
