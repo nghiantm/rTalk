@@ -1,1 +1,4 @@
 .env
+
+# guideline descriptions
+actfl_proficiency_classifier/actfl_guideline/guideline_desc/*
