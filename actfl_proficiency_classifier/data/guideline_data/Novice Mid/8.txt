@@ -1,5 +1,5 @@
-1. Hola, me llamo Maria. ¿Cómo estás?
-2. Quiero aprender español porque es muy interesante.
-3. Hoy aprendí sobre la diferencia entre "ser" y "estar".
-4. El tiempo en España es muy bonito, ¿verdad?
-5. Mi comida favorita es la paella, ¿tienes alguna receta?
+1. Hola, ¿cómo estás?
+2. Soy de Argentina, me llamo Carlos.
+3. Me gusta la comida española, es muy deliciosa.
+4. ¿Puedes ayudarme a practicar mi español?
+5. ¿Dónde está el baño? Estoy perdido.

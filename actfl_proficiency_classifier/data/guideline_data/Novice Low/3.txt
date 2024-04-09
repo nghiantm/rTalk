@@ -1,5 +1,5 @@
-1. Hola, me llamo María. ¿Cómo estás?
-2. ¿Dónde está el baño, por favor?
-3. Quiero una cerveza y un emparedado.
-4. Perdón, no entiendo. Repite, por favor.
-5. Necesito ayuda para encontrar mi hotel- se llama La Casa Azul.
+1. Hola, ¿cómo estás?
+2. Soy de México.
+3. Me gusta comer tacos y quesadillas.
+4. ¿Dónde está la biblioteca?
+5. Adiós, buen día.

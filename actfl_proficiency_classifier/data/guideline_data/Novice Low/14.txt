@@ -1,5 +1,5 @@
-1. Hola, me llamo Ana.
-2. Soy de México, ¿y tú?
-3. ¿Cómo estás hoy?
-4. Me gusta comer pizza.
-5. ¿Qué hora es ahora?
+1. Hola, me llamo Juan.
+2. ¿Cómo estás?
+3. ¿Dónde está el baño?
+4. Quiero comer pizza.
+5. Ayuda, no entiendo el menú.

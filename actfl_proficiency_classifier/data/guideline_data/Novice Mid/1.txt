@@ -1,5 +1,5 @@
-1. Hola, yo soy Marta. ¿Cómo estás?
-2. Me gusta mucho la comida mexicana y española.
-3. ¿Dónde está el baño, por favor?
-4. Mi cumpleaños es el veintitrés de marzo.
-5. Tengo dos gatos y un perro en mi casa.
+1. Hola ¿cómo estás?
+2. Quiero aprender español.
+3. ¿Cuál es tu nombre?
+4. Me gustaría comer pizza.
+5. ¿Dónde está el baño?

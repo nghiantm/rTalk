@@ -1,5 +1,5 @@
-1. Hola, mi nombre es María.
-2. ¿Dónde está la biblioteca?
-3. Yo tener hambre, quiero comer.
-4. ¿Cómo estás hoy?
-5. Quiero aprender más español.
+1. Hola, me llamo Pablo.
+2. ¿Cómo estás?
+3. Yo comer solo comida deliciosa.
+4. ¿Dónde está la biblioteca?
+5. Adiós, hasta luego.

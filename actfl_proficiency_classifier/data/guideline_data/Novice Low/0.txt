@@ -1,5 +1,5 @@
-1. Hola, me llamo Maria.
+1. Hola, me llamo Maria. Soy de España.
 2. ¿Cómo estás? Estoy bien, gracias.
-3. Soy de México y me gusta la comida picante.
-4. No entiendo mucho español, pero estoy aprendiendo.
-5. ¿Dónde está el baño, por favor?
+3. ¿Dónde queda la biblioteca? Necesito encontrar un libro.
+4. Me gusta la comida mexicana porque es deliciosa.
+5. ¿Cuántos años tienes? Tengo veintiún años.

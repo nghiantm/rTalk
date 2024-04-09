@@ -1,5 +1,5 @@
-1. Hola, me llamo María.
-2. ¿Dónde está la biblioteca?
-3. Quiero comer una empanada.
-4. Necesito ayuda con mi tarea de español.
-5. Yo hablo un poco de inglés también.
+1. Hola, me llamo Maria.
+2. ¿Cómo estás?
+3. Yo vivo en España.
+4. Mi comida favorita es la paella.
+5. Necesito ir al baño.

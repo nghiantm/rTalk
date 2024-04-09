@@ -1,5 +1,5 @@
-1. Hola, me llamo María. ¿Cómo estás?
-2. Estudio español en la escuela y quiero aprender más.
-3. ¿Dónde está el baño, por favor?
-4. Me gusta comer tacos y beber agua.
-5. Hoy hace sol y estoy feliz de salir a pasear.
+1. Hola, me llamo Maria y soy de Mexico.
+2. ¿Cómo estás? Estoy bien, gracias por preguntar.
+3. Por favor, ¿puedes repetir eso? No entendí completamente.
+4. Quiero aprender más palabras en español para mejorar mi comunicación.
+5. Mi comida favorita es la paella, ¿y la tuya?

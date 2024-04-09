@@ -1,5 +1,5 @@
-1. Hola, me llamo María. Soy de México.
-2. ¿Dónde está la biblioteca? Necesito un libro sobre historia.
-3. Mi cumpleaños es en julio. Me gusta celebrar con mis amigos.
-4. Prefiero la comida mexicana, como los tacos y enchiladas.
-5. No entiendo mucho inglés, pero estoy aprendiendo. ¿Puedes ayudarme a practicar?
+- Hola, me llamo María. ¿Cómo estás?
+- ¿Dónde está la playa? Quiero ir a nadar.
+- Mi comida favorita es el arroz con pollo. Es deliciosa.
+- ¿A qué hora es la clase de español? Necesito practicar más.
+- Me gusta escuchar música en español. Es muy bonita.
