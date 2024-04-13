@@ -11,7 +11,7 @@ app = Flask(__name__)
 modelPath = "../actfl_proficiency_classifier/trained_models/proficiency_classifier.joblib"
 model = joblib.load(modelPath)
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
+client = OpenAI(api_key=os.getenv("TOGETHER_API_KEY"), base_url=os.getenv("BASE_URL"))
 
 @app.route("/", methods=["GET"])
 def home():
@@ -28,7 +28,6 @@ def predict_prof():
         # Convert to List to be able to jsonify
         predictionList = prediction.tolist() if isinstance(prediction, np.ndarray) else prediction
 
-
         response = {
             "prediction": predictionList
         }
@@ -39,20 +38,25 @@ def predict_prof():
     
 @app.route("/generate_response", methods=["POST"])
 def generate_response():
-    data = request.get_json()
-    messages = data["messages"]
     try:
+        data = request.get_json()
+        messages = data["messages"]
+
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo-0125",
             messages=messages,
-            temperature=0
+            temperature=0,
+            model="NousResearch/Nous-Hermes-2-Yi-34B"
         )
 
-        message = response.choices[0].message.content
-
-        return jsonify(message), 200
+        responseJSON = {
+            "role": response.choices[0].message.role,
+            "content": response.choices[0].message.content
+        }
+            
+        return jsonify(responseJSON), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-    
-if __name__ == "__main__":
-    app.run()
+
+  
+#if __name__ == "__main__":
+#    app.run()
