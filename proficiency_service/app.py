@@ -5,8 +5,10 @@ from openai import OpenAI
 import os
 from dotenv import load_dotenv
 load_dotenv()
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 modelPath = "../actfl_proficiency_classifier/trained_models/proficiency_classifier.joblib"
 model = joblib.load(modelPath)
@@ -58,5 +60,5 @@ def generate_response():
         return jsonify({"error": str(e)}), 500
 
   
-#if __name__ == "__main__":
-#    app.run()
+if __name__ == "__main__":
+    app.run()
