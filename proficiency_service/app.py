@@ -47,7 +47,7 @@ def generate_response():
         response = client.chat.completions.create(
             messages=messages,
             temperature=0,
-            model="NousResearch/Nous-Hermes-2-Yi-34B"
+            model="NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO"
         )
 
         responseJSON = {

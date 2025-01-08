@@ -13,7 +13,7 @@ function HomeBar() {
             <p className={clsx(
                 "grow font-logo mt-1 text-xl text-[#ffffff]"
             )}>
-                Real Talk
+                rTalk
             </p>
 
             <DropMenu />
@@ -42,7 +42,7 @@ function ChatBar() {
             <p className={clsx(
                 "font-logo mt-1 text-xl text-[#2196f3]"
             )}>
-                Real Talk
+                rTalk
             </p>
         </div>
     )
