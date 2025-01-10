@@ -164,3 +164,8 @@ app.get('/api/levels/:email', async (req, res) => {
       res.status(500).json({ error: 'Failed to fetch numbers' });
     }
   });
+
+// Ping endpoint to keep the server active
+app.get("/ping", (req, res) => {
+    res.status(200).json({ message: "Server is alive!" });
+});
