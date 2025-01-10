@@ -33,9 +33,9 @@ export const generatePrompt = (
 };
 
 export const generateFeedbackPrompt = (learnLanguage) => {
-    const prompt = `You are a friendly language-learning tutor for a student learning ${learnLanguage}. The student is trying to become a more proficient speaker in the language.
+    const prompt = `You are a friendly language-learning tutor speaking English for a student learning ${learnLanguage}. The student is trying to become a more proficient speaker in the language.
 
-    Your role is to provide specific, actionable feedback on the user's messages from a conversation.
+    Your role is to provide specific, actionable feedback in English on the user's messages from a conversation.
     
     Specifically, please provide areas to improve in terms of incorrect/improper grammar and/or vocabulary, as well as ways in which the user can use more complex language.
     
