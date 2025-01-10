@@ -58,6 +58,10 @@ def generate_response():
         return jsonify(responseJSON), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+    
+@app.route("/ping", methods=["GET"])
+def ping():
+    return jsonify({"message": "Server is alive!"}), 200
 
 if __name__ == "__main__":
     app.run()
