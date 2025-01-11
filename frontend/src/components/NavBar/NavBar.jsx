@@ -34,7 +34,7 @@ function ChatBar() {
                 className={clsx(
                 "font-logo text-xl bg-[#2196f3]")}
                 size="sm"
-                onClick={() => navigate("/")}
+                onClick={() => navigate("/home")}
             >
                 Back
             </Button>
@@ -54,7 +54,9 @@ export default function NavBar() {
     const shouldRenderNavBar = 
         pathname !== '/sign-up' 
         && pathname !== '/sign-in'
-        && pathname !== '/sign-up/onboarding';
+        && pathname !== '/sign-up/onboarding'
+        && pathname !== '/'
+        && pathname !== '/demo';
     const shouldRenderChatBar = pathname === "/chat"
     
     return (shouldRenderNavBar) ? (

@@ -44,7 +44,7 @@ export default function Onboarding() {
             formData.interests,
             formData.learningGoal
         ))
-        navigate("/");
+        navigate("/home");
     }
 
     return (
